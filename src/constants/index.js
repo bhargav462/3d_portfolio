@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, microsoft, rakuten, shipsy } from "../assets/images";
 import {
     car,
     contact,
@@ -11,70 +11,27 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    c,
+    cPlusPlus,
+    postgres,
+    redshift,
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
         type: "Frontend",
     },
     {
@@ -83,19 +40,49 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: postgres,
+        name: "Postgres SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: redshift,
+        name: "Redshift",
+        type: "Database",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
         imageUrl: react,
         name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
     },
     {
         imageUrl: tailwindcss,
@@ -106,60 +93,67 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "Backend",
+    },
+    {
+        imageUrl: cPlusPlus,
+        name: "C++",
+        type: "Backend",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Software Developer",
+        company_name: "Shipsy",
+        icon: shipsy,
+        iconBg: "#BFCFE7",
+        date: "May 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "SKILLS USED: Node Js, React Js, Postgres SQL, Redshift, Mongo DB",
+            "Optimized Virtual Number Generation to significantly reduce costs",
+            "Developed a third party reconciliation system that enabled riders to do COD reconciliation at near by stores, streamlining the process and improving efficiency",
+            "Created an intuitive search feature in the dispatch management screen to enhance user experience",
+            "Developed a cron microservice that enables other microservices to easily schedule and automate tasks, improving overall efficiency",
+            "Designed and implemented an incident management system responsible for ticket creation and user notification in the event of an incident breach"
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Software Developer",
+        company_name: "Rakuten",
+        icon: rakuten,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2021 - April 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed an understanding of agile methodology",
+            "Developed an understanding of codebase of RCP (Rakuten Cloud Platform) and contributed to the UI using Angular as a Frontend Developer",
+            "Worked in a cloud environment and learned Kubernetes",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Software Developer Intern",
+        company_name: "Microsoft",
+        icon: microsoft,
+        iconBg: "#F8F4EC",
+        date: "March 2020 - May 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Applied different kind of filters to comments with a simple UI in word online to increase the user experience",
+            "Developed an understanding of codebase of word online",
+            "Developed the debugging skills by working in a large-scale project",
         ],
     },
 ];
@@ -186,43 +180,22 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Ecof e-commerce for farmers',
+        description: 'Platform helps the farmers to sell their crops directly to the buyer. Farmers can also manage their profile like add, registration, update and delete crop using SMS services',
+        link: 'https://friendly-ramanujan-6c6336.netlify.app',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Connected Deliveries',
+        description: 'User who need the items from a particular place can request the user who went to that place where the item was available and vice versa',
+        link: 'https://github.com/bhargav462/ConnectedDeliveries',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Red Carvings',
+        description: 'e-commerce website to buy the red sandalwood products',
+        link: 'https://www.redcarvings.com/',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

@@ -15,7 +15,7 @@ function About() {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Gurgaon, specializing in technical education through education through hands-on learning and building applications.
+          Full Stack Web Developer skilled in crafting innovative solutions using Node.js and React.js and always open to learn new technologies
         </p>
       </div>
 
@@ -24,16 +24,19 @@ function About() {
         <div className='mt-16 flex flex-wrap gap-12'>
           {
             skills.map(skill => (
-              <div className='block-container w-20 h-20'>
-                <div className='btn-back rounded-xl'>
-                  <div className='btn-front rounded-xl flex justify-center items-center'>
-                    <img
-                      src={skill.imageUrl}
-                      alt={skill.name}
-                      className='w-1/2 h-1/2 object-contain'
-                    />
+              <div>
+                <div className='block-container w-20 h-20'>
+                  <div className='btn-back rounded-xl'>
+                    <div className='btn-front rounded-xl flex justify-center items-center'>
+                      <img
+                        src={skill.imageUrl}
+                        alt={skill.name}
+                        className='w-1/2 h-1/2 object-contain'
+                      />
+                    </div>
                   </div>
                 </div>
+                <p className='text-center'>{skill.name}</p>
               </div>
             ))
           }
@@ -44,7 +47,7 @@ function About() {
         <h3 className='subhead-text'>Work Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
+            I've worked with different sorts of companies, leveling up my skills and
             teaming up with smart people. Here's the rundown:
           </p>
         </div>
